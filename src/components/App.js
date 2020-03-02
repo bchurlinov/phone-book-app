@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import AddContactForm from "./components/addContact/addContactForm";
-import ContactItem from "./components/contactItem/ContactItem";
+import AddContactForm from "./addContact/addContactForm";
+import ContactItem from "./contactItem/ContactItem";
 import './App.css';
 
 const App = () => {
