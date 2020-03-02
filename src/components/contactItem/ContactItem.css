@@ -1,0 +1,67 @@
+.contact-card {
+    flex: 0 0 100%;
+    padding: 25px 25px 0;
+    position: relative;
+}
+
+.contact-card-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-shadow: 10px 10px 19px 0px rgba(224, 224, 224, 1);
+    -moz-box-shadow: 10px 10px 19px 0px rgba(224, 224, 224, 1);
+    box-shadow: 10px 10px 19px 0px rgba(224, 224, 224, 1);
+}
+
+.contact-card-wrap p:first-of-type {
+    margin-bottom: 3px;
+    margin-top: 2px
+}
+
+.contact-card-wrap {
+    background: white;
+    padding: 15px;
+    margin: 20px;
+}
+
+.contact-card-wrap__item:nth-child(1) {
+    flex: 0 0 15%;
+}
+
+.contact-card-wrap__item:nth-child(1) i{
+    position: relative;
+    font-size: 35px;
+    color: #4c4c4c;
+    top: 8px;
+}
+
+.contact-card-wrap__item:nth-child(2) {
+    flex: 0 0 65%;
+}
+
+.contact-card-wrap__item:nth-child(3) {
+    flex: 0 0 20%;
+}
+
+.contact-card-wrap__item:nth-child(3) button {
+    border: 2px solid indianred;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 4px 7px;
+    position: relative;
+    top: 5px;
+}
+
+.contact-card-wrap__item:nth-child(3) i{
+    font-size: 20px;
+}
+
+.checkbox {
+    position: relative;
+    left: 25px;
+    top: 4px;
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    cursor: pointer;
+}

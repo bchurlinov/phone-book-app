@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    color: #4c4c4c;
+}
+
+.phonebook {
+    width: 650px;
+    padding: 30px 20px 60px;
+    border: 1px solid #dddcdc;
+    border-radius: 5px;
+    margin: 150px auto;
+    background: #f0f0f0;
+    -webkit-box-shadow: 10px 10px 19px 0px rgba(224, 224, 224, 1);
+    -moz-box-shadow: 10px 10px 19px 0px rgba(224, 224, 224, 1);
+    box-shadow: 10px 10px 19px 0px rgba(224, 224, 224, 1);
+}
+
+/* Header */
+
+.phonebook__header {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.phonebook__header h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+
+.phonebook__header h1 i {
+    position: relative;
+    margin-right: 10px;
+    font-weight: 300;
+    color: #4c4c4c;
+}
+
+/* End Header */
+
+/* Contact Form Wrapper */
+
+.phonebook__form {
+    padding: 40px 20px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+/* End Contact Form Wrapper */
+
+/* Contacts */
+
+.phonebook__contacts {
+    padding: 0;
+}
+
+.phonebook__contacts__wrap {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* End Contacts */
+
+.delete-multiple-button {
+    text-align: right;
+    width: 100%;
+    padding: 20px
+}
+
+.delete-multiple-button button {
+    border: 1px solid indianred;
+    background: white;
+    border-radius: 4px;
+    padding: 8px 25px;
+    cursor: pointer;
+    color: indianred;
+    transition: 0.1s all ease-in-out;
+}
+
+.delete-multiple-button button:hover {
+    border: 1px solid white;
+    color: white;
+    background: indianred;
+}
